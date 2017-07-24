@@ -1,0 +1,25 @@
+
+
+<h1>Semantic Web Intent Search </h1>
+		
+	<form id="searchForm" action="NlpRestController" method="post">
+		  <div id='SearchContainer'><input type="text" name="searchQuery" #searchQuery autofocus>
+		  	<button type="submit" (click)="search(searchQuery.value)" id="SearchButton">Search</button>
+
+		  	<!-- <input type="button" value="Cancel" id="cancelSearch1" class="cancelSearch"> -->
+		  </div>
+	</form>  
+
+<section id="searchResults"></section>
+<div *ngIf="a">
+	<div *ngFor="let output of a">
+	<div>
+	<p>{{output.title}}</p>
+	<a href="{{output.url}}">{{output.url}}</a>
+	<p>{{output.desc}}</p>
+	</div>
+	</div>
+</div>
+		
+		
+

@@ -1,0 +1,43 @@
+h1{
+    align-content: center;
+    padding-left:500px;
+}
+
+#searchQuery
+{
+	margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    vertical-align: middle;
+    width: 450px;
+    font-size: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #C3C3C3;
+    padding: 2px 4px 2px 4px;
+}
+
+#SearchContainer
+{
+	margin-left: auto;
+    margin-right: auto;
+    width: 524px;
+    margin-bottom: 110px;
+    margin-top: 0px;
+}
+
+#searchButton, #cancelSearch1
+{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 3px;
+	height: 26px;
+	vertical-align: middle;
+	display: inline-block;
+	width: 65px;
+}
+
+#cancelSearch1
+{
+	display: none;
+}
